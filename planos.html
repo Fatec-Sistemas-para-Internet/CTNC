@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planos</title>
+    <title>CTNC | Terapias Naturais - Planos</title>
+    <meta name="description" content="Especialistas em terapias naturais corporativas e individuais.">
+    <meta property="og:title" content="CTNC | Terapias Naturais - Planos">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/ctnc-logo-short.webp">
     <script src="https://kit.fontawesome.com/6ff4f12442.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="assets/img/ctnc-logo-icon.svg">
+    <link rel="icon" type="image/x-icon" href="assets/img/ctnc-logo-icon.webp">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/planos.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -16,8 +20,9 @@
     <header>
         <nav>
             <!-- LOGO -->
-            <a href="index.html">
-                <img src="assets/img/ctnc-logo-short.svg" alt="Logotipo com as letras CTNC, onde a letra 'T' é verde e estilizada com uma linha vertical e um arco no topo. À esquerda das letras, há um ícone de folha verde dentro de uma forma circular branca com bordas arredondadas, lembrando uma flor.">
+            <a href="index.html" class="header-logo">
+                <img src="assets/img/ctnc-logo-short.webp"
+                    alt="Logotipo com as letras CTNC, onde a letra 'T' é verde e estilizada com uma linha vertical e um arco no topo. À esquerda das letras, há um ícone de folha verde dentro de uma forma circular branca com bordas arredondadas, lembrando uma flor.">
             </a>
             <!-- MENU -->
             <ul>
@@ -25,46 +30,46 @@
                 <li><a href="planos.html">Planos</a></li>
                 <li><a href="sobre.html">Sobre nós</a></li>
                 <li>
-                    <a href="cursos.html">Cursos &#x25BE</a>
+                    <a href="cursos.html" aria-haspopup="true" aria-expanded="false">Cursos &#x25BE</a>
                     <ul class="dropdown">
-                        <li><a href="curso1.html">Cuidador de idosos</a></li>
-                        <li><a href="curso2.html">Extensão de Cílios</a></li>
-                        <li><a href="curso3.html">Limpeza de pele</a></li>
-                        <li><a href="curso4.html">Manicure e pedicure</a></li>
-                        <li><a href="curso5.html">Massoterapia</a></li>
-                        <li><a href="curso6.html">Negociação e vendas</a></li>
-                        <li><a href="curso7.html">Pedras quentes</a></li>
-                        <li><a href="curso8.html">Spá nos pés</a></li>
+                        <li><a href="cursos/curso1.html">Cuidador de idosos</a></li>
+                        <li><a href="cursos/curso2.html">Extensão de Cílios</a></li>
+                        <li><a href="cursos/curso3.html">Limpeza de pele</a></li>
+                        <li><a href="cursos/curso4.html">Manicure e pedicure</a></li>
+                        <li><a href="cursos/curso5.html">Massoterapia</a></li>
+                        <li><a href="cursos/curso6.html">Negociação e vendas</a></li>
+                        <li><a href="cursos/curso7.html">Pedras quentes</a></li>
+                        <li><a href="cursos/curso8.html">Spá nos pés</a></li>
                     </ul>
                 </li>
             </ul>
             <a href="https://wa.me/5513996323122" class="cta-button">Contate-nos</a>
             <label>
-                <input type="checkbox"> 
+                <input type="checkbox" aria-label="Abrir menu">
             </label>
 
             <!-- RESPONSIVE -->
-            <aside>
+            <nav class="mobile-nav">
                 <ul>
                     <li><a href="index.html">Principal</a></li>
                     <li><a href="planos.html">Planos</a></li>
                     <li><a href="sobre.html">Sobre nós</a></li>
                     <li>
-                        <a href="cursos.html">Cursos &#x25BE</a>
+                        <a href="cursos.html" aria-haspopup="true" aria-expanded="false">Cursos &#x25BE</a>
                         <ul>
-                            <li><a href="curso1.html">Cuidador de idosos</a></li>
-                            <li><a href="curso2.html">Extensão de Cílios</a></li>
-                            <li><a href="curso3.html">Limpeza de pele</a></li>
-                            <li><a href="curso4.html">Manicure e pedicure</a></li>
-                            <li><a href="curso5.html">Massoterapia</a></li>
-                            <li><a href="curso6.html">Negociação e vendas</a></li>
-                            <li><a href="curso7.html">Pedras quentes</a></li>
-                            <li><a href="curso8.html">Spá nos pés</a></li>
+                            <li><a href="cursos/curso1.html">Cuidador de idosos</a></li>
+                            <li><a href="cursos/curso2.html">Extensão de Cílios</a></li>
+                            <li><a href="cursos/curso3.html">Limpeza de pele</a></li>
+                            <li><a href="cursos/curso4.html">Manicure e pedicure</a></li>
+                            <li><a href="cursos/curso5.html">Massoterapia</a></li>
+                            <li><a href="cursos/curso6.html">Negociação e vendas</a></li>
+                            <li><a href="cursos/curso7.html">Pedras quentes</a></li>
+                            <li><a href="cursos/curso8.html">Spá nos pés</a></li>
                         </ul>
                     </li>
                 </ul>
                 <a href="https://wa.me/5513996323122" class="cta-button">Contate-nos</a>
-            </aside>    
+            </nav>
         </nav>
     </header>
 
@@ -88,7 +93,9 @@
                 </ul>
 
                 <p><strong>Valor:</strong> R$ 250,00 / mês</p>
-                <a href="https://wa.me/5513996323122">Assinar Plano Simples</a>
+                <a
+                    href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20assinar%20o%20Plano%20Simples">Assinar
+                    Plano Simples</a>
             </div>
         </section>
 
@@ -96,7 +103,8 @@
         <section id="plano2">
             <div class="limit-container">
                 <h2>Plano Ouro</h2>
-                <p>Para quem busca um tratamento mais completo, com foco em estética, alívio de dores e reabilitação.</p>
+                <p>Para quem busca um tratamento mais completo, com foco em estética, alívio de dores e reabilitação.
+                </p>
 
                 <h3>O que está incluído:</h3>
                 <ul>
@@ -112,7 +120,9 @@
                 </ul>
 
                 <p><strong>Valor:</strong> R$ 400,00 / mês</p>
-                <a href="https://wa.me/5513996323122">Assinar Plano Ouro</a>
+                <a
+                    href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20assinar%20o%20Plano%20Ouro">Assinar
+                    Plano Ouro</a>
             </div>
         </section>
 
@@ -135,7 +145,9 @@
 
                 <p><strong>Valor:</strong> A partir de R$ 150,00 por funcionário</p>
                 <p><em>Quanto mais vidas incluídas, menor o valor por pessoa.</em></p>
-                <a href="https://wa.me/5513996323122">Solicitar Convênio</a>
+                <a
+                    href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20assinar%20o%20Plano%20Empresarial">Solicitar
+                    Convênio</a>
             </div>
         </section>
         <section>
@@ -145,84 +157,114 @@
                         <tr>
                             <th>Seu serviço</th>
                             <th>Faixa de custo</th>
-                            <th></th>
+                            <th scope="col"><span class="sr-only">Ação</span></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>Modeladora</td>
                             <td>R$50,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20modeladora"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Massagem</td>
                             <td>R$50,00 - R$ 150,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20massagem"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Argila facial</td>
                             <td>R$50,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20argila%20facial"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Reflexoterapia</td>
                             <td>R$50,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20reflexoterapia"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Pedras quentes</td>
                             <td>R$80,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20pedras%20quentes"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Auricular</td>
                             <td>R$80,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20auricular"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Corrente russa</td>
                             <td>R$80,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20corrente%20russa"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Dermotonus levanta bumbum</td>
                             <td>R$80,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20dermotonus%20levanta%20bumbum"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Drenagem linfática</td>
                             <td>R$120,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20drenagem%20linfática"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Ventosa</td>
                             <td>R$120,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20ventosa"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Limpeza de pele</td>
                             <td>R$120,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20limpeza%20de%20pele"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Esfoliação corporal</td>
                             <td>R$120,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20esfoliação%20corporal"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Terapias</td>
                             <td>R$150,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20terapia"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Tratamento da dor</td>
                             <td>R$150,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a></td>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20tratamento%20da%20dor"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                         <tr>
                             <td>Acupuntura</td>
                             <td>R$180,00</td>
-                            <td><a href="https://wa.me/5513996323122"></a>
+                            <td><a href="https://wa.me/5513996323122?text=Oi!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sessão%20de%20acupuntura"
+                                    aria-label="Agendar via WhatsApp">Agendar via
+                                    WhatsApp</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -233,14 +275,18 @@
         <section>
             <article>
                 <div class="wrapper">
-                    <img src="assets/img/ctnc-logo-short.svg" alt="Logotipo com as letras CTNC, onde a letra 'T' é verde e estilizada com uma linha vertical e um arco no topo. À esquerda das letras, há um ícone de folha verde dentro de uma forma circular branca com bordas arredondadas, lembrando uma flor.">
+                    <img src="assets/img/ctnc-logo-short.webp"
+                        alt="Logotipo com as letras CTNC, onde a letra 'T' é verde e estilizada com uma linha vertical e um arco no topo. À esquerda das letras, há um ícone de folha verde dentro de uma forma circular branca com bordas arredondadas, lembrando uma flor.">
                     <p>Cuidar da saúde ocupacional é investir em performance</p>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="https://www.instagram.com/robertavaroa/"><img src="assets/img/Instagram.webp" alt="Logo do Instagram: ícone quadrado com cantos arredondados em gradiente de roxo, rosa, laranja e amarelo, contendo o contorno branco estilizado de uma câmera com lente central e círculo no canto superior direito."></a>
+                        <li><a href="https://www.instagram.com/robertavaroa/"><img src="assets/img/Instagram.webp"
+                                    alt="Logo do Instagram: ícone quadrado com cantos arredondados em gradiente de roxo, rosa, laranja e amarelo, contendo o contorno branco estilizado de uma câmera com lente central e círculo no canto superior direito."></a>
                         </li>
-                        <li><a href="https://wa.me/5513996323122"><img src="assets/img/WhatsApp.webp" alt="Ícone do WhatsApp: um balão de conversa verde com um telefone branco no centro sobre fundo escuro."></a></li>
+                        <li><a href="https://wa.me/5513996323122"><img src="assets/img/WhatsApp.webp"
+                                    alt="Ícone do WhatsApp: um balão de conversa verde com um telefone branco no centro sobre fundo escuro."></a>
+                        </li>
                     </ul>
                 </nav>
             </article>
@@ -268,14 +314,14 @@
                 <article>
                     <h3>Cursos</h3>
                     <ul>
-                        <li><a href="curso1.html">Cuidador de idosos</a></li>
-                        <li><a href="curso2.html">Extensão de Cílios</a></li>
-                        <li><a href="curso3.html">Limpeza de pele</a></li>
-                        <li><a href="curso4.html">Manicure e pedicure</a></li>
-                        <li><a href="curso5.html">Massoterapia</a></li>
-                        <li><a href="curso6.html">Negociação e vendas</a></li>
-                        <li><a href="curso7.html">Pedras quentes</a></li>
-                        <li><a href="curso8.html">Spá nos pés</a></li>
+                        <li><a href="cursos/curso1.html">Cuidador de idosos</a></li>
+                        <li><a href="cursos/curso2.html">Extensão de Cílios</a></li>
+                        <li><a href="cursos/curso3.html">Limpeza de pele</a></li>
+                        <li><a href="cursos/curso4.html">Manicure e pedicure</a></li>
+                        <li><a href="cursos/curso5.html">Massoterapia</a></li>
+                        <li><a href="cursos/curso6.html">Negociação e vendas</a></li>
+                        <li><a href="cursos/curso7.html">Pedras quentes</a></li>
+                        <li><a href="cursos/curso8.html">Spá nos pés</a></li>
                     </ul>
                 </article>
 
